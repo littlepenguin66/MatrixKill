@@ -1,5 +1,28 @@
-# Prerequisites
-*.d
+# Build directories
+build/
+bin/
+out/
+cmake-build*/
+
+# Executable files
+*.exe
+*.out
+*.app
+MatrixKill
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
 
 # Compiled Object files
 *.slo
@@ -7,18 +30,10 @@
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,7 +41,10 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Result files
+result.txt
